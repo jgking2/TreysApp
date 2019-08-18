@@ -1,9 +1,24 @@
 import React, { useState, useCallback, useEffect } from 'react';
 
+import { ViroARScene, ViroARPlaneSelector, ViroConstants, ViroARSceneNavigator } from 'react-viro';
 
-import { ViroARScene, ViroARPlaneSelector, ViroConstants } from 'react-viro';
+const API_KEY = 'D3C29FFC-3B57-42E1-A914-947120CE38A9';
 
-export const SceneSelection = (props : ViroNavigatorProps<any>) => {
+export const FindHeroes = (props : ViroNavigatorProps<any>) => {
+    const exit = console.log;
+    const onSave = console.log;
+
+    return (
+        <ViroARSceneNavigator
+            viroAppProps={{ exit, onSave }}
+            apiKey={API_KEY}
+            initialScene={{ scene: SceneSelection }} />
+        
+    )
+};
+
+const SceneSelection = () => {
+    console.log('hey!');
     const onAnchorFound = useCallback(() => {
         console.log('anchor found');
     },[]);
@@ -13,8 +28,7 @@ export const SceneSelection = (props : ViroNavigatorProps<any>) => {
     const onSelectPlane = useCallback(() => {
         console.log('Plane selected');
     },[]);
-    return (
-        <ViroARScene
+    return <ViroARScene
             onAnchorFound={onAnchorFound}
             anchorDetectionTypes={[`PlanesHorizontal`]}
             onTrackingUpdated={onTrackingUpdated}>
@@ -23,5 +37,4 @@ export const SceneSelection = (props : ViroNavigatorProps<any>) => {
                 onPlaneSelected={onSelectPlane}>
             </ViroARPlaneSelector>
         </ViroARScene>
-    )
-};
+}

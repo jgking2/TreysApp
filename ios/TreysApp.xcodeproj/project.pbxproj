@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TreysAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TreysAppTests.m */; };
+		0C4F1CCE598B9A9A5103F242 /* libPods-TreysApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 702266F7477E91CF50CF5468 /* libPods-TreysApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		22BB57C829C553A61EC1F559 /* libPods-TreysAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3C275214C080B95031F2AB /* libPods-TreysAppTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* TreysAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TreysAppTests.m */; };
+		2FFFBF9256DD7F2FFF6B4B19 /* libPods-TreysAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A50A0ED81F21227B8F2925 /* libPods-TreysAppTests.a */; };
 		557BB77B74C8B840CB4248A8 /* libPods-TreysApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A778976EF3C943F201ECB0A5 /* libPods-TreysApp-tvOSTests.a */; };
 		C3A31EE130A0F99F38A13F40 /* libPods-TreysApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5AD3240C38F49D13817FDD /* libPods-TreysApp-tvOS.a */; };
-		EA2BDE8645433F4832C31395 /* libPods-TreysApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ECC35CAA490615E2D615DE /* libPods-TreysApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +57,13 @@
 		2D02E4901E0B4A5D006451C7 /* TreysApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TreysApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D069B57C3013D8F10402E45 /* Pods-TreysApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreysApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreysApp/Pods-TreysApp.release.xcconfig"; sourceTree = "<group>"; };
 		644359F7D92D60E3895D4B6C /* Pods-TreysApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreysApp-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreysApp-tvOS/Pods-TreysApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		702266F7477E91CF50CF5468 /* libPods-TreysApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreysApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		718D2423C22AAB1FECEAA541 /* Pods-TreysApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreysApp-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreysApp-tvOSTests/Pods-TreysApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		87ECC35CAA490615E2D615DE /* libPods-TreysApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreysApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97301FA6982960B24FE6FABF /* Pods-TreysApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreysApp-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreysApp-tvOSTests/Pods-TreysApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4A50A0ED81F21227B8F2925 /* libPods-TreysAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreysAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A680B0643C5E4FB0F26A2FC0 /* Pods-TreysApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreysApp-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreysApp-tvOS/Pods-TreysApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A778976EF3C943F201ECB0A5 /* libPods-TreysApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreysApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5AD3240C38F49D13817FDD /* libPods-TreysApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreysApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB3C275214C080B95031F2AB /* libPods-TreysAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreysAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F39AE9325A04C0E986CD3975 /* Pods-TreysApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreysApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreysApp/Pods-TreysApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BB57C829C553A61EC1F559 /* libPods-TreysAppTests.a in Frameworks */,
+				2FFFBF9256DD7F2FFF6B4B19 /* libPods-TreysAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA2BDE8645433F4832C31395 /* libPods-TreysApp.a in Frameworks */,
+				0C4F1CCE598B9A9A5103F242 /* libPods-TreysApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				87ECC35CAA490615E2D615DE /* libPods-TreysApp.a */,
 				AF5AD3240C38F49D13817FDD /* libPods-TreysApp-tvOS.a */,
 				A778976EF3C943F201ECB0A5 /* libPods-TreysApp-tvOSTests.a */,
-				CB3C275214C080B95031F2AB /* libPods-TreysAppTests.a */,
+				702266F7477E91CF50CF5468 /* libPods-TreysApp.a */,
+				A4A50A0ED81F21227B8F2925 /* libPods-TreysAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -292,6 +292,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 8S4EY54Z3W;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -308,6 +311,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -650,6 +654,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 8S4EY54Z3W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TreysApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -669,6 +675,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S4EY54Z3W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TreysApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
