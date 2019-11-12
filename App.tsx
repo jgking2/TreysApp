@@ -1,38 +1,20 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/emin93/react-native-template-typescript
- *
- * @format
- */
-
 import React, {Fragment} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
-  View,
-  Text,
   StatusBar,
 } from 'react-native';
 
-import { FindHeroes } from './src/Scene';
+import { TreyGame } from './src/game/engine';
 import {
-  Header,
-  LearnMoreLinks,
   Colors,
-  DebugInstructions,
-  ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
   return (
     <Fragment>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView style={styles.view}>
-          <FindHeroes />
-      </SafeAreaView>
+      <TreyGame />
     </Fragment>
   );
 };

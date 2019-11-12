@@ -1,7 +1,9 @@
 import React, { useState, useCallback, useEffect } from 'react';
 
-import { ViroARScene, ViroARPlaneSelector, ViroConstants, ViroARSceneNavigator } from 'react-viro';
+import { ViroARScene, ViroAmbientLight, ViroARPlaneSelector, ViroConstants, ViroARSceneNavigator } from 'react-viro';
 
+import { MegaManWithoutHelmet } from './models';
+ 
 const API_KEY = 'D3C29FFC-3B57-42E1-A914-947120CE38A9';
 
 export const FindHeroes = (props : ViroNavigatorProps<any>) => {
@@ -18,7 +20,7 @@ export const FindHeroes = (props : ViroNavigatorProps<any>) => {
 };
 
 const SceneSelection = () => {
-    console.log('hey!');
+    console.log('sup');
     const onAnchorFound = useCallback(() => {
         console.log('anchor found');
     },[]);
@@ -32,9 +34,12 @@ const SceneSelection = () => {
             onAnchorFound={onAnchorFound}
             anchorDetectionTypes={[`PlanesHorizontal`]}
             onTrackingUpdated={onTrackingUpdated}>
-            <ViroARPlaneSelector
+            {/* <ViroARPlaneSelector
                 alignment={"Horizontal"}
                 onPlaneSelected={onSelectPlane}>
-            </ViroARPlaneSelector>
+            </ViroARPlaneSelector> */}
+            <ViroAmbientLight color="#ffffff" />
+
+            <MegaManWithoutHelmet />
         </ViroARScene>
 }
